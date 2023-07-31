@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F6F6F6;
+  font-family: Open Sans;
+  font-style: normal;
+  line-height: normal;
+}
+
+.header {
+  background: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  padding: 25px 0 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-txt {
+  color: #7B7B7B;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+.search-form{
+  position: relative;
+}
+.input {
+  right: 10px;
+  display: flex;
+  width: 450px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #E3E3E3;
+  background: #F6F6F6;
+
+}
+
+.number {
+  display: flex;
+  align-items: center;
+}
+
+.number-txt {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.search-button{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background: #F6F6F6;
+}
+.decorativeStrip{
+  background-image: url(img/decorativeStrip.png);
+  max-width: 1540px;
+  height: 35px;
+  margin: 0 auto;
+}
+.nav{
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.decorativeStrip a{
+  color: #FFF;
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 0.32px;
+text-decoration: none;
+}
